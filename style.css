@@ -2,7 +2,7 @@
 
 *{
      font-family: 'Space Mono', monospace;
-     color: 45686A;
+     color: #45686A;
      line-height: 1.6;
 }
 ul{
@@ -25,8 +25,10 @@ body{
 
 /* normal styling*/
 .text-heading{
+    font-size: 30px;
+    letter-spacing: 10px;
     text-align: center;
-    margin-top: 50px;
+    margin: 40px 0;
 }
 #bill{
     font-family: "monospace";
@@ -51,25 +53,37 @@ body{
 }
 input{
     width: 250px;
-    height: 30px;
+    height: 40px;
     border: none;
-    background-color: #F3F8FB;
+    background-color: #aaafb3;
+    color: #fff;
+    font-size:20px;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
 }
 button{
     background-color: #00474B;
     width: 90px;
-    height: 30px;
-    padding: 20px 0px;
+    height: 40px;
+    padding: 0px 0px;
     border: none;
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+    margin: 10px 0;
 }
 .custom{
     background-color: #F3F8FB;
     color: #A7ACAD;
+    width: 90px;
+    height: 40px;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 5px;
 }
 h5{
     color: #A7ACAD;
@@ -110,4 +124,16 @@ p{
     font-weight: bold;
     color: #30959b;
     cursor: pointer;
+}
+.icon1{
+    background-color: #A7ACAD;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+.icon2{
+    background-color: #A7ACAD;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px
 }

@@ -16,25 +16,33 @@
     <div>
       <form action="" class="form-flex">
         <label for="bill" id="bill">Bill</label>
-        <input type="text" name="" id="">
+        <div style="display: flex;">
+        <i class="fa fa-user icon icon1"></i>
+        <input type="text" name="" id="inp">
+        <i class="fa fa-user icon icon2"></i>
+        </div>
       </form>
       
         <h5>Select Tip <i class="fas fa-percent"></i></h5>
         <div class="flex">
           <div class="flex2">
-            <button>5%</button>
-            <button>10%</button>
-            <button>15%</button>
+            <button onclick="execute()" id="but">5%</button>
+            <button onclick="execute()" id="but">10%</button>
+            <button onclick="execute()" id="but">15%</button>
           </div>
           <div class="flex3">
-            <button>25%</button>
-            <button>50%</button>
-            <button class="custom">Custom</button>
+            <button onclick="execute()"id="but">25%</button>
+            <button onclick="execute()" id="but">50%</button>
+            <button onclick="execute()" id="but" class="custom">Custom</button>
           </div>
         </div>
         <form action="" class="form-flex">
-          <label for="bill" id="bill">Numer of People</label>
-          <input type="text" name="" id="">
+          <label for="bill" id="bill">Number of People</label>
+          <div style="display: flex;">
+            <i class="fa fa-user icon icon1"></i>
+            <input type="text" name="" id="">
+            <i class="fa fa-user icon icon2"></i>
+            </div>
         </form>
 
       
@@ -53,9 +61,19 @@
       <input type="button" value="Reset" class="res">
     </div>
   </div>
+  <script>
+    function click(){
+      var myClick = document.getElementById('but');
+      var inputEl  = document.getElementById('inp');
+      inputEl.innerHTML = myClick.appendChild('inputEl')
+    } 
+  </script>
 </body>
 </html>
-
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div>
 
 
 
@@ -103,7 +121,3 @@
 
   Reset
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>--> https://jvz1.com/c/2299529/374238
