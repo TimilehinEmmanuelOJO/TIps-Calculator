@@ -76,6 +76,10 @@ button{
     cursor: pointer;
     margin: 10px 0;
 }
+button:hover{
+    background-color: #F3F8FB;
+    color: #00474B;
+}
 .custom{
     background-color: #F3F8FB;
     color: #A7ACAD;
@@ -125,15 +129,22 @@ p{
     color: #30959b;
     cursor: pointer;
 }
+.res:hover{
+    background-color: #aaafb3;
+}
 .icon1{
     background-color: #A7ACAD;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 5px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 .icon2{
     background-color: #A7ACAD;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 5px
+    padding: 5px;
+    font-size: 20px;
+    padding-top: 10px;
 }

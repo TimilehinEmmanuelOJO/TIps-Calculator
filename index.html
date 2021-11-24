@@ -17,9 +17,9 @@
       <form action="" class="form-flex">
         <label for="bill" id="bill">Bill</label>
         <div style="display: flex;">
-        <i class="fa fa-user icon icon1"></i>
+          <i class="fas fa-dollar-sign icon1"></i>
         <input type="text" name="" id="inp">
-        <i class="fa fa-user icon icon2"></i>
+      <i class="fas fa-circle-notch icon2"></i>
         </div>
       </form>
       
@@ -40,8 +40,8 @@
           <label for="bill" id="bill">Number of People</label>
           <div style="display: flex;">
             <i class="fa fa-user icon icon1"></i>
-            <input type="text" name="" id="">
-            <i class="fa fa-user icon icon2"></i>
+            <input type="text" name="" id="num">
+            <i class="fas fa-circle-notch icon2"></i>
             </div>
         </form>
 
@@ -51,23 +51,19 @@
       <div class="grid">
         <div class="tip">
           <p>Tip Amount <br> / person</p>
-          <h2>$0.00</h2>
+          <h2 id="amt">$0.00</h2>
         </div>
         <div class="tip">
           <p>Total <br> / person</p>
-          <h2>$0.00</h2>
+          <h2 id="tot">$0.00</h2>
         </div>
       </div>
       <input type="button" value="Reset" class="res">
     </div>
   </div>
-  <script>
-    function click(){
-      var myClick = document.getElementById('but');
-      var inputEl  = document.getElementById('inp');
-      inputEl.innerHTML = myClick.appendChild('inputEl')
-    } 
-  </script>
+
+<script src="index.js"></script>
+
 </body>
 </html>
 <div class="attribution">
