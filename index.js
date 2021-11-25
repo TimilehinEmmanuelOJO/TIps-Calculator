@@ -1,3 +1,6 @@
+
+
+
 var reset = document.getElementById('reset');
 var bill_paid = document.getElementById('inp');
 var tip_button = document.getElementById('but');

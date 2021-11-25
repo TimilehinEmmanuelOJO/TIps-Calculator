@@ -24,7 +24,7 @@ body{
 }
 
 /* normal styling*/
-.text-heading{
+#text-heading{
     font-size: 30px;
     letter-spacing: 10px;
     text-align: center;
