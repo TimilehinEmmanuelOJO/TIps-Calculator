@@ -1,3 +1,49 @@
+
+//access each of the elements with Dom
+
+
+var reset = document.getElementById('reset');
+var bill_paid = document.getElementById('inp');
+var tip_button = document.getElementById('but');
+var custom_button = document.getElementById('but-custom')
+var people_number = document.getElementById('num');
+var amount_payable = document.getElementById('amt');
+var total_bill = document.getElementById('tot');
+
+
+//Add eventlisteners for buttons
+reset.addEventListener('click', function(){
+bill_paid = "";
+tip_button = "";
+people_number = '';
+amount_payable = '$0.00';
+total_bill = '$0.00';
+})
+
+if (bill_paid === "" || people_number === ""){
+    alert("please enter a value");
+}
+
+tip_button.addEventListener('click', function(){
+    if(){
+        
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var reset = document.getElementById('reset'); // Reset button 
 var total_person = document.getElementById('total_person'); // bill for one person
 var tip_person = document.getElementById('tip_person'); // Tip for one person
